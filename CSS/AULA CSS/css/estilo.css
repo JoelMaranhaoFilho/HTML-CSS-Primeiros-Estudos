@@ -1,0 +1,68 @@
+body{
+  
+    height: 100vh;
+   
+ 
+}
+
+.grid-section{
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+    grid-template-rows: 10% 1fr 10%;
+    gap: 1%;
+    grid-template-areas: 
+    'headeArea headeArea headeArea'
+    'mainArea mainArea asideArea'
+    'footerArea footerArea footerArea'
+    
+}
+
+.lista{
+    border: solid;
+}
+
+#section-header{
+    text-align: center;
+}
+
+#section-main{
+    border: solid yellow
+}
+
+#section-aside{
+    border: solid blue
+}
+
+#section-id{
+    border: solid green 
+    
+}
+
+
+header{
+    background: rgb(53, 54, 53);
+    grid-column: 1/4;
+    border: solid green
+
+
+    
+}
+
+main{
+    background: rgb(53, 54, 53);
+    grid-column: 1/3;
+    border: solid green;
+    
+}
+
+aside{
+    background: rgb(53, 54, 53);
+    grid-column: 3/4;
+    border: solid yellow;
+}
+
+footer{
+    background: rgb(53, 54, 53);
+    grid-column: 1/4;
+    border: solid green;
+}
